@@ -1,0 +1,14 @@
+This is a network topology project that connects two separate local networks using routers and switches with the following structure:
+
+1. Left Network (192.168.1.x):
+Devices: PCs (PC0-PC3), a Syslog Server, and a Printer.
+Default Gateway: 192.168.1.1 (Router0).
+Switch0 connects all local devices.
+2. Right Network (192.168.10.x):
+Devices: PCs (PC4-PC7), an FTP Server, a Printer, and a Laptop.
+Default Gateway: 192.168.10.1 (Router2).
+Switch1 connects all local devices.
+3. Middle Network:
+Routers (Router0, Router1, Router2) connect the two networks using IPs 10.0.0.0, 20.0.0.0, and 100.50.0.x.
+A Cell Tower connects a smartphone with IP 192.168.30.x to the middle network.
+Switch3 connects additional devices like a laptop and PC.
